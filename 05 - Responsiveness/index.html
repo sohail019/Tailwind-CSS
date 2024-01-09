@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Responsiveness</title>
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <h2 class="bg-blue-800 text-center text-white py-20">
+      TailwindCSS Responsiveness
+    </h2>
+
+    <p
+      class="bg-green-700 p-10 sm:bg-red-600 md:bg-black lg:bg-blue-700 xl:bg-orange-600 2xl:bg-pink-700 text-white"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magni
+      dicta mollitia dolor quidem cumque provident? Sapiente, iure deleniti quia
+      deserunt nihil quae incidunt esse, at nesciunt saepe accusamus quis? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolore
+      illo reprehenderit ut quod repudiandae qui, modi, ullam ipsam nostrum
+      totam unde neque maiores, dolorem facilis. Consequuntur temporibus
+      adipisci unde, expedita maxime modi eos voluptatum. Nesciunt optio non a
+      similique possimus sint ab. Architecto fugit ratione fuga sed ipsam
+      consequuntur?
+    </p>
+
+    <hr class="h-2 bg-black my-5" />
+
+    <h2 class="uppercase text-center text-3xl p-4 bg-slate-300 rounded-2xl">
+      Please change the width of screen
+    </h2>
+
+    <p
+      class="bg-red-600 text-white text-center my-2 py-4 text-xs block sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden"
+    >
+      You are on Default which is extra Small Screen
+    </p>
+    <p
+      class="bg-green-700 text-white text-center my-2 py-4 text-sm hidden sm:text-md sm:block md:hidden lg:hidden xl:hidden 2xl:hidden"
+    >
+      You are on Small Screen (Min-width : 640px)
+    </p>
+    <p
+      class="bg-blue-700 text-white text-center my-2 py-4 hidden md:text-lg sm:hidden md:block lg:hidden xl:hidden 2xl:hidden"
+    >
+      You are on Medium Screen (Min-width : 768px)
+    </p>
+    <p
+      class="bg-orange-700 text-white text-center my-2 py-4 hidden lg:text-xl sm:hidden md:hidden lg:block xl:hidden 2xl:hidden"
+    >
+      You are on Large Screen (Min-width : 1024px)
+    </p>
+    <p
+      class="bg-purple-700 text-white text-center my-2 py-4 hidden xl:text-2xl sm:hidden md:hidden lg:hidden xl:block 2xl:hidden"
+    >
+      You are on Extra Large Screen (Min-width : 1280px)
+    </p>
+    <p
+      class="bg-yellow-700 text-white text-center my-2 py-4 hidden 2xl:text-4xl sm:hidden md:hidden lg:hidden xl:hidden 2xl:block"
+    >
+      You are on 2x Large Screen (Min-width : 1536px)
+    </p>
+  </body>
+</html>
